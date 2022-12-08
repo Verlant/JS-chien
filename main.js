@@ -1,4 +1,5 @@
 class Dog {
+  quantite_nourriture = 0;
   /**
    *
    * @param {string} name
@@ -10,8 +11,8 @@ class Dog {
     this.name = name;
     this.age = age;
     this.race = race;
-    this.quantite_nourriture = 0;
   }
+
   aboie() {
     console.log(this.name + " aboie\nRex : - Waf Waf !");
   }
